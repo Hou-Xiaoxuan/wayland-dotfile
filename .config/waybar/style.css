@@ -191,8 +191,8 @@ label {
 }
 
 #workspaces button.active {
-    color: #eeeeee;
-    background-color: #282c34;
+    color: #fde3e3;
+    background-color: #5b5c5c;
     border-top: 2px solid white;
 }
 
@@ -206,3 +206,5 @@ label {
     border-color: #c9545d;
     color: #c9545d;
 }
+
+/*scrolling through workspace*/

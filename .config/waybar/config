@@ -7,11 +7,11 @@
     "height": 28,
 
     "modules-left": [
-        "sway/workspaces",
+        //"sway/workspaces",
         "wlr/workspaces"
     ],
     "modules-center": [
-        "sway/window",
+        // "sway/window",
         "hyprland/window"
     ],
     "modules-right": [
@@ -84,7 +84,10 @@
     },
 
     "wlr/workspaces": {
-        "on-click": "activate"
+        "on-click": "activate",
+        "format":"{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
 
     "temperature": {
